@@ -15,7 +15,6 @@ function App() {
 
 
 
-
   //CREATE MULTIPLE COMPONENTS FROM AN ARRAY OF OBJECTS
   const productNames = products.map(product => product.name)
   console.log(productNames);
@@ -39,7 +38,6 @@ function App() {
     </div>
   )
 }
-
 
 
 
